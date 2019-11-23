@@ -1,0 +1,31 @@
+ (gci -include *.cpp,*.h,*.hpp,*.glsl -recurse | select-string .).Count
+
+TO DO
+
+
+_FEATURES_
+
+	INTERFACE/GUI
+	- An equation input
+
+	MATH
+	- Equations 
+	- Multi variable functions
+	- Parametric Functions
+	- Derivatives
+
+	GRAPHICS
+	- 3D graph objects
+	- 3D axes
+
+	PEDAGOGICAL
+	- Problem
+	- Solution Analyzer
+
+	IMPLEMENTATION
+	- FunctionMap (done)
+
+
+	Extending the program to 3D
+
+		Domain -> Functions -> Ranges -> Vertices -> Model -> Perspective Transform -> Projection -> Line drawer
